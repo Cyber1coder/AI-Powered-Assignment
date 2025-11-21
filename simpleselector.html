@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>simple selector nav bar</title>
+<style>
+*{
+  font-family: Arial;
+}
+
+#header{
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-link{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.nav-link:hover{
+  color: blue;
+}
+
+.nav-link:first-child{
+  color: lightblue;
+}
+
+header, footer{
+  margin: 10px;
+  padding: 10px;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+<header id="header">
+  <h2>My Simple Navigation Bar</h2>
+  <nav>
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">Web Design</a>
+    <a href="#" class="nav-link">WordPress</a>
+    <a href="#" class="nav-link">About Us</a>
+    <a href="#" class="nav-link">BeAdvice</a>
+    <a href="#" class="nav-link">Buy BeTheme</a>
+  </nav>
+</header>
+
+<footer>
+  <p>2025 My Website</p>
+</footer>
+</body>
+</html>
